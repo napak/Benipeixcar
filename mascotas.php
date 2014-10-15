@@ -21,6 +21,7 @@
                     </div>
                     <h5>Propietario: {{f.propietario}}</h5>
                     <h4>Nombre: {{f.nombre}}</h4>
+                    <h4>Clinica: {{f.clinica}}</h4>
                     <h4>Última cita:</h4><a href="{{f.urlFecha}}">{{f.Fecha}}</a>
                 </div>
             </div>

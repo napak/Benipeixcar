@@ -99,6 +99,10 @@
                                         <td><?php echo $pages->get("$page->mascotaPropietario")->title ?></td>
                                     </tr>
                                     <tr>
+                                        <td>Clinica Remitente:</td>
+                                        <td><?php echo $pages->get("$page->mascotaClinicaRemitente")->title ?></td>
+                                    </tr>
+                                    <tr>
                                         <td>Chip:</td>
                                         <td><?php echo $page->mascotaChip ?></td>
                                     </tr>

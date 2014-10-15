@@ -12,6 +12,7 @@
 		foreach ($events as $event) {
 		    
 		    $nombre = $event->title;
+		    $clinica = $pages->get("$event->mascotaClinicaRemitente")->title;
 		    $url = $event->url;
 		    $urlImagen = $event->mascotaImagen->url;
 		    $propietario = $pages->get("$event->mascotaPropietario")->title;
@@ -23,6 +24,7 @@
 
 		    $events_array[] = array(
 		        'nombre' => $nombre,
+		        'clinica' => $clinica,
 		        'url' => $url,
 		        'image' => $urlImagen,
 		        'propietario' => $propietario,
